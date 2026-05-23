@@ -1,0 +1,97 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  background: radial-gradient(circle at 20% 0%, #1f2a3a, #101622 55%, #0a0f16);
+  color: #e8eef6;
+  overflow-x: hidden;
+}
+.layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: 12px;
+  padding: 12px;
+}
+.panel {
+  background: rgba(15, 23, 35, 0.85);
+  border: 1px solid #2d3f59;
+  border-radius: 14px;
+  padding: 12px;
+  backdrop-filter: blur(4px);
+  min-width: 0;
+}
+.panel-side {
+  display: flex;
+  flex-direction: column;
+}
+.panel-text {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-height: calc(100vh - 24px);
+}
+h2 {
+  margin: 10px 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #8ec5ff;
+}
+img#captureImage {
+  width: 100%;
+  min-height: 240px;
+  max-height: 68vh;
+  object-fit: contain;
+  background: #05090f;
+  border-radius: 10px;
+  border: 1px solid #233349;
+}
+.bubble {
+  min-height: 48px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2a3a52;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.5;
+}
+.user { background: #122338; }
+.model { background: #152c24; }
+.partial { background: #2b2134; }
+#userText {
+  max-height: 18vh;
+  overflow: auto;
+}
+#modelDelta {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  max-height: calc(100vh - 220px);
+}
+.status {
+  font-weight: 700;
+  color: #ffe08a;
+}
+.muted { color: #8ea3c0; font-size: 12px; }
+.error-list, .history-list {
+  margin: 0;
+  padding-left: 16px;
+  max-height: 260px;
+  overflow: auto;
+}
+.history-list {
+  max-height: 42vh;
+  flex: 1;
+}
+.history-list li { margin-bottom: 8px; }
+.history-list li,
+.error-list li {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+@media (max-width: 1200px) {
+  .layout { grid-template-columns: 1fr; }
+  img#captureImage { max-height: 40vh; }
+}

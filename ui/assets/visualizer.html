@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EasyAI OCR 可视化面板</title>
+    <link rel="stylesheet" href="/visualizer.css" />
+</head>
+
+<body>
+    <div class="layout">
+        <section class="panel panel-image">
+            <h2>捕捉图片</h2>
+            <img id="captureImage" alt="capture" />
+            <p id="imageMeta" class="muted">等待图像...</p>
+        </section>
+
+        <section class="panel panel-text">
+            <h2>用户输入文本</h2>
+            <div id="userText" class="bubble user"></div>
+
+            <h2>模型回复</h2>
+            <div id="modelDelta" class="bubble model"></div>
+        </section>
+
+        <section class="panel panel-side">
+            <h2>系统状态</h2>
+            <div id="systemState" class="status">IDLE</div>
+
+            <h2>局部识别</h2>
+            <div id="partialText" class="bubble partial"></div>
+
+            <h2>系统日志</h2>
+            <ul id="errorList" class="error-list"></ul>
+
+            <h2>最近对话</h2>
+            <ul id="historyList" class="history-list"></ul>
+        </section>
+    </div>
+
+    <script src="/visualizer.js"></script>
+</body>
+
+</html>

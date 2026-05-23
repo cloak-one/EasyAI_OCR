@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 助手展示面板</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232d95d3'/%3E%3Cpath d='M18 22h28v6H18zm0 14h20v6H18z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/resources/static/style.css?v=20260514-4">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EasyAI OCR · Live Showcase</p>
+        <h1>ESP32 助手展示面板</h1>
+      </div>
+      <div class="status-grid" aria-label="系统状态概览">
+        <article class="status-card" id="card-camera" data-state="offline">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">摄像头</span>
+          <strong class="status-value" id="s-camera">离线</strong>
+        </article>
+        <article class="status-card" id="card-audio" data-state="offline">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">音频</span>
+          <strong class="status-value" id="s-audio">离线</strong>
+        </article>
+        <article class="status-card" id="card-asr" data-state="neutral">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">ASR</span>
+          <strong class="status-value" id="s-asr">待机</strong>
+        </article>
+        <article class="status-card" id="card-intent" data-state="neutral">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">当前意图</span>
+          <strong class="status-value" id="s-intent">idle</strong>
+        </article>
+      </div>
+    </header>
+
+    <main class="dashboard-grid">
+      <section class="panel captures-panel" aria-labelledby="captures-title">
+        <div class="panel-header">
+          <div>
+            <h2 id="captures-title">命令截图</h2>
+          </div>
+          <span class="panel-badge" id="capture-count">0 条</span>
+        </div>
+        <div class="panel-body">
+          <div id="capture-list" class="capture-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="panel conversation-panel" aria-labelledby="conversation-title">
+        <div class="panel-header">
+          <div>
+            <h2 id="conversation-title">对话记录</h2>
+          </div>
+          <span class="panel-badge" id="message-count">0 条</span>
+        </div>
+        <div class="panel-body">
+          <div id="conv-list" class="conversation-list" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/resources/static/main.js?v=20260514-4"></script>
+</body>
+</html>

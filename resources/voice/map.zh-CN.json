@@ -1,0 +1,200 @@
+{
+  "向前翻页": {
+    "files": [
+      "向前翻页.wav"
+    ],
+    "duration_ms": 1632
+  },
+  "向后翻页": {
+    "files": [
+      "向后翻页.wav"
+    ],
+    "duration_ms": 1656
+  },
+  "右移": {
+    "files": [
+      "右移.wav"
+    ],
+    "duration_ms": 378
+  },
+  "右转": {
+    "files": [
+      "右转.wav"
+    ],
+    "duration_ms": 507
+  },
+  "右转一点": {
+    "files": [
+      "右转一点.wav"
+    ],
+    "duration_ms": 560
+  },
+  "向右平移": {
+    "files": [
+      "向右平移.wav"
+    ],
+    "duration_ms": 720
+  },
+  "向左平移": {
+    "files": [
+      "向左平移.wav"
+    ],
+    "duration_ms": 720
+  },
+  "寻物任务完成。": {
+    "files": [
+      "寻物任务完成。.wav"
+    ],
+    "duration_ms": 827
+  },
+  "左移": {
+    "files": [
+      "左移.wav"
+    ],
+    "duration_ms": 378
+  },
+  "左转": {
+    "files": [
+      "左转.wav"
+    ],
+    "duration_ms": 378
+  },
+  "左转一点": {
+    "files": [
+      "左转一点.wav"
+    ],
+    "duration_ms": 613
+  },
+  "已到达目标，引导结束。": {
+    "files": [
+      "已到达目标，引导结束。.wav"
+    ],
+    "duration_ms": 1733
+  },
+  "引导超时，自动结束。": {
+    "files": [
+      "引导超时，自动结束。.wav"
+    ],
+    "duration_ms": 1657
+  },
+  "请向右平移。": {
+    "files": [
+      "请向右平移。.wav"
+    ],
+    "duration_ms": 747
+  },
+  "请向右转动。": {
+    "files": [
+      "请向右转动。.wav"
+    ],
+    "duration_ms": 773
+  },
+  "请向左平移。": {
+    "files": [
+      "请向左平移。.wav"
+    ],
+    "duration_ms": 933
+  },
+  "请向左转动。": {
+    "files": [
+      "请向左转动。.wav"
+    ],
+    "duration_ms": 667
+  },
+  "请继续向右平移。": {
+    "files": [
+      "请继续向右平移。.wav"
+    ],
+    "duration_ms": 1413
+  },
+  "请继续向左平移。": {
+    "files": [
+      "请继续向左平移。.wav"
+    ],
+    "duration_ms": 1360
+  },
+  "请问完成了吗？": {
+    "files": [
+      "请问完成了吗？.wav"
+    ],
+    "duration_ms": 773
+  },
+  "在画面左侧": {
+    "files": [
+      "在画面左侧.WAV"
+    ],
+    "duration_ms": 1200
+  },
+  "在画面中间": {
+    "files": [
+      "在画面中间.WAV"
+    ],
+    "duration_ms": 1200
+  },
+  "在画面右侧": {
+    "files": [
+      "在画面右侧.WAV"
+    ],
+    "duration_ms": 1200
+  },
+  "找到啦": {
+    "files": [
+      "找到啦.wav"
+    ],
+    "duration_ms": 800
+  },
+  "检测到物体": {
+    "files": [
+      "音频1.WAV"
+    ],
+    "duration_ms": 882
+  },
+  "向上": {
+    "files": [
+      "音频2.WAV"
+    ],
+    "duration_ms": 743
+  },
+  "向下": {
+    "files": [
+      "音频3.WAV"
+    ],
+    "duration_ms": 836
+  },
+  "向左": {
+    "files": [
+      "音频4.WAV"
+    ],
+    "duration_ms": 743
+  },
+  "向右": {
+    "files": [
+      "音频5.WAV"
+    ],
+    "duration_ms": 673
+  },
+  "OK": {
+    "files": [
+      "音频6.WAV"
+    ],
+    "duration_ms": 789
+  },
+  "向前": {
+    "files": [
+      "音频7.WAV"
+    ],
+    "duration_ms": 789
+  },
+  "后退": {
+    "files": [
+      "音频8.WAV"
+    ],
+    "duration_ms": 650
+  },
+  "拿到物体": {
+    "files": [
+      "音频9.WAV"
+    ],
+    "duration_ms": 813
+  }
+}

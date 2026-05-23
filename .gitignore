@@ -1,0 +1,32 @@
+# --- 用户指定排除的目录 ---
+save/
+test/
+tmp/
+docs/
+.vscode/
+.omx/
+.pytest_cache/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# --- 环境 & 密钥 ---
+.env
+
+# --- 大文件 ---
+*.doc
+*.docx
+*.pdf
+*.cfb
+*.glb
+
+# --- OS ---
+Thumbs.db
+.DS_Store
